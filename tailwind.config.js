@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  // Add this line to enable manual dark mode toggling
+  darkMode: "class", 
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
